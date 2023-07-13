@@ -1,0 +1,255 @@
+<!DOCTYPE html>   
+<html lang="en">
+  <head>
+    <!-- required meta tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />  
+    <!-- title -->
+    <title>Namaste Apps</title>   
+    <!-- fav-icon  --> 
+    <link rel="icon" type="fav-icon" href="images/namaste.png">  
+    <!-- manifest json file -->
+    <link rel="manifest" href="manifest.json" />
+    <!-- bootstrap cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- bootstrap icon cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- custom css -->
+    <link rel="stylesheet" href="CSS/style.css" />    
+  </head>
+  <body >       
+    <!-- header starts -->
+    <header id="header">  
+        <div class="container">
+          <!-- navigation -->
+          <nav
+            class="navigation d-flex justify-content-between align-items-center py-1" 
+          >
+            <div class="back_icon">
+              <a href="setting.html"><i class="bi bi-arrow-left-short"></i></a>        
+            </div>
+  
+            <div class="logo">   
+              <img class="img-fluid" src="images/namaste.png" alt="logo" />
+            </div>
+  
+            <div class="hamburger">
+              <span class="line line-1"></span>
+              <span class="line line-2"></span>
+              <span class="line line-3"></span>
+            </div>
+          </nav>
+        </div>
+      </header>
+    <!-- header close -->    
+    
+       <!-- form starts -->          
+       <section class="myformgroup myform2  setting-box mt-4">                  
+        <!-- <div class="container">        -->  
+          <div class="row mx-auto pt-4">  
+            <div class="col-12 setting_boxes pt-4 px-0">         
+              
+              <div class="login">   
+                <div class="ps-5 pe-5">        
+                <h1 class="text-center mb-0">Sign Up</h1>            
+                <p class="text-center">Create an Account. It's free!</p>         
+
+                <div class="input-style no-borders has-icon validate-field">
+                <i class="fa fa-user"></i>
+                <input type="name" class="form-control validate-name" id="form1a" placeholder="Name" fdprocessedid="6gvgfkr">
+                <label for="form1a" class="color-blue-dark font-10 mt-1">Name</label>
+                <em>(required)</em>
+                </div>
+
+                <div class="input-style no-borders has-icon validate-field ">
+                <i class="fa fa-at"></i>
+                <input type="email" class="form-control validate-password" id="form3a" placeholder="Email" fdprocessedid="wgzyt">
+                <label for="form3a" class="color-blue-dark font-10 mt-1">Email</label>   
+                <em>(required)</em>
+                </div>
+
+                <div class="input-style no-borders has-icon validate-field">
+                    <i class="fa fa-lock"></i>
+                    <input type="password" class="form-control validate-password" id="form3a" placeholder="Choose a Password" fdprocessedid="wgzyt">
+                    <label for="form3a" class="color-blue-dark font-10 mt-1">Password</label>       
+                    <em>(required)</em>
+                    </div>
+
+                    <div class="input-style no-borders has-icon validate-field ">
+                        <i class="fa fa-lock"></i>
+                        <input type="password" class="form-control validate-password" id="form3a" placeholder="Confirm your Password" fdprocessedid="wgzyt">
+                        <label for="form3a" class="color-blue-dark font-10 mt-1">Password</label>  
+                        <em>(required)</em>
+                        </div>
+
+                <div class="d-flex mt-5 mb-5">
+                <div class="w-100 acc signup text-center"><a href="/">Already Registered? Sign in Here</a></div>      
+                </div>
+               
+                <a href="/"><button  type="submit" class="btn  w-100 login_btn">CREATE ACCOUNT</button></a>         
+                <!-- <div class="divider mt-4"></div>
+                <a href="/" class="f_box s_box text-uppercase d-inline-block w-100 text-white text-start"><i class="fab fa-facebook-f text-center bg-transparent"></i>Sign in with Facebook</a>
+                <a href="/" class="g_box s_box text-uppercase d-inline-block w-100 text-white text-start mt-2 "><i class="fab fa-google text-center bg-transparent"></i>Sign in with Google</a>   -->
+                </div>         
+
+                </div>    
+          
+            </div>    
+          </div>  
+        <!-- </div> -->
+      </section>            
+      <!-- form close -->        
+        
+
+    <!-- footer starts -->
+    <div id="footer-bar" class="footer-bar-1">
+      <a href="#" class="d-flex flex-column">
+        <i class="fa fa-home"></i>
+        <span class="pt-1">Home</span>
+      </a>
+      <a href="#" class="d-flex flex-column">
+        <i class="fa fa-quote-right fixed_size"></i>   
+        <span class="pt-1">Quotes</span>
+      </a>
+      <a href="#" class="d-flex flex-column text-danger">
+        <i class="fa fa-smile fixed_size" aria-hidden="true"></i>
+        <span class="pt-1">Jokes</span>
+      </a>
+      <a href="#" class="d-flex flex-column">
+        <i class="fa fa-paper-plane fixed_size"></i>
+        <span class="pt-1">Shayari</span>
+      </a>
+      <a href="#" class="d-flex flex-column">
+        <i class="fa fa-user fixed_size"></i>
+        <span class="pt-1">Personal</span>
+      </a>
+    </div>   
+    <!-- footer close -->
+
+    <!-- hidden navbar starts -->
+    <div class="navbar p-0 pt-5">                   
+      <ul class="list-group navbar_items mt-3 pb-3">
+        <li class="list-group-item nav-item1"> 
+          <a href="#" class="navbar_active nav-link1">   
+            <i class="fa fa-moon" aria-hidden="true"></i>Dark Mode
+          </a>
+        </li>
+        <li class="list-group-item nav-item2">
+          <a href="#" class="nav-link2">
+            <i class="fa fa-cog"></i>Components      
+          </a>
+        </li>
+        <li class="list-group-item nav-item3">  
+          <a href="#" class="nav-link3">
+            <i class="fa fa-bars" aria-hidden="true"></i>Menus</a  
+          >
+        </li>   
+        <li class="list-group-item nav-item4"> 
+          <a href="#" class="nav-link4">
+            <i class="fa fa-camera" aria-hidden="true"></i>Gallery
+          </a>  
+        </li>
+        <li class="list-group-item nav-item5">
+          <a href="#" class="nav-link5">
+            <i class="fa fa-image"></i>Portfolio
+          </a>
+        </li>
+        <li class="list-group-item nav-item6">
+          <a href="#" class="nav-link6">
+            <i class="fa fa-file"></i>Pages   
+          </a>
+        </li>
+        <li class="list-group-item nav-item7 mb-2"> 
+          <a href="#" class="nav-link7">
+            <i class="fa fa-cog" aria-hidden="true"></i>Setting</a
+          >
+        </li>
+
+
+        <li class="list-group-item "  style="border-top: 1px solid #dadce0;">                                  
+          <select class="form-select my-select" aria-label="Default select example">        
+            <option selected>Language</option>                 
+            <option value="1">English</option>       
+            <option value="2">Hindi</option>              
+          </select>       
+        </li>           
+        
+        
+        <li class="list-group-item" style="border-top: 1px solid #dadce0;">        
+          <a href="#" class="">   
+            <i class="fa fa-sign-in" aria-hidden="true"></i>Sign in&nbsp;  / &nbsp;Sign up</a   
+          >
+        </li>     
+        
+        <li class="list-group-item" style="border-top: 1px solid #dadce0; padding: 8px 0; ">      
+          <a href="/" class="d-flex align-items-center py-0">    
+            Download Apps <i class="bi bi-android2 ms-3" aria-hidden="true" style=" color: #a4c639; font-size: 20px;"></i> <i class="fa-brands fa-brands fa-apple ms-3" aria-hidden="true" style=" font-size: 21px;"></i></a 
+          >
+        </li>         
+        
+        
+        
+       
+          
+          
+         
+        <p class="py-3" style="border-top: 1px solid #dadce0; text-align: left; padding-left: 32px;">Privacy . Terms . About Namaste Apps</p> 
+      </ul>
+    </div>   
+    <!-- hidden navbar close -->  
+
+   
+
+    <!-- bootstrap js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- jquery cdn -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+
+    <!-- pwa js -->
+    <script>
+      window.addEventListener("load", () => { 
+        registerSW();
+      });
+
+      // Register the Service Worker
+      async function registerSW() {
+        if ("serviceWorker" in navigator) {
+          try {
+            await navigator.serviceWorker.register("serviceworker.js");
+          } catch (e) {
+            console.log("SW registration failed");
+          }
+        }
+      }
+    </script>
+  </body>
+</html>
+
+
